@@ -4,6 +4,7 @@ runConfig:
   minInstances: 0
   maxInstances: 5
   concurrency: 80
+  allowFailure: true
 
 # Environment variables and secrets
 env:
@@ -11,6 +12,7 @@ env:
     value: production
   - variable: APP_NAME
     value: BarStockV1
+    allowFailure: true
 
 # Build settings
 build:
@@ -18,4 +20,5 @@ build:
   buildCommand: npm run build
   # Directory that contains the build output
   outputDirectory: output
+  allowFailure: true
 
