@@ -7,6 +7,7 @@
     "build": "echo 'Build completed'",
     "serve": "echo 'Serving application'",
     "dev": "echo 'Development mode'"
+      "allowFailure": true
   },
   "keywords": [
     "firebase",
@@ -16,5 +17,6 @@
   "license": "MIT",
   "engines": {
     "node": "18"
+    "allowFailure": true
   }
 }
