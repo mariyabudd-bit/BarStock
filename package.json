@@ -1,0 +1,20 @@
+{
+  "name": "barstockv1",
+  "version": "1.0.0",
+  "description": "Bar Stock Management App",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "serve": "echo 'Serving application'",
+    "dev": "echo 'Development mode'"
+  },
+  "keywords": [
+    "firebase",
+    "hosting"
+  ],
+  "author": "Mariya Budd",
+  "license": "MIT",
+  "engines": {
+    "node": "18"
+  }
+}
